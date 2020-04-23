@@ -49,6 +49,10 @@ hr{
 .pers-tabble{
   font-family: "Roboto-Bold";
   color: #3fbac2;
+
+}
+.freelance{
+  background-color: red;
 }
 .row{
   align-items: center;

@@ -9,7 +9,12 @@ td{
   text-align: center;
   padding: 5%;
 }
-
+hr{
+  border: 2px solid;
+  width: 70%;
+  border-radius: 50%;
+  color: rgb(47, 47, 47, 0.5);
+}
 
 
 .avtar{
@@ -46,5 +51,32 @@ td{
   color: #3fbac2;
 }
 .row{
-  text-align: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+/* КАРУСЕЛИ  */
+.carousel-inner, item, img {
+margin: 0 auto;
+}
+.google-play-icons{
+  margin-top: 15%;
+}
+.Raiffeisen-title{
+  font-family: 'Anton', sans-serif;
+  color: yellow;
+}
+.Ticketland-title{
+  font-family: 'Oswald', sans-serif;
+  color: #FF3500;
+}
+.go{
+  font-family: 'Bangers', cursive;
+  color: #c7f5fe;
 }

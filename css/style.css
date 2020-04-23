@@ -54,7 +54,9 @@ hr{
   align-items: center;
 }
 
-
+#works{
+  background-color: rgb(47, 47, 47, 0.3);
+}
 
 
 
@@ -79,4 +81,7 @@ margin: 0 auto;
 .go{
   font-family: 'Bangers', cursive;
   color: #c7f5fe;
+}
+.stk{
+  text-align: left;
 }

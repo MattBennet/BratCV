@@ -134,4 +134,7 @@ margin: 0 auto;
   .col-6{
     width: auto;
   }
+  .avtar-container h2{
+    color: red;
+  }
 }

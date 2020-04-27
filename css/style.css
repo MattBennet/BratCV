@@ -109,7 +109,9 @@ margin: 0 auto;
     text-align: center;
     color: #666666;
     border: 1px solid #C0C0C0;
-    background: #E0E0E0;
+    border-top-left-radius:  10%;
+    border-top-right-radius:  10%;
+    /* background: #E0E0E0; */
     cursor: pointer;
 }
 .tabs>input:checked + label {
@@ -122,3 +124,14 @@ margin: 0 auto;
 #tab_2:checked ~ #txt_2,
 #tab_3:checked ~ #txt_3,
 #tab_4:checked ~ #txt_4 { display: block; }
+
+
+
+/*-----------------------------------------------------
+                           MEDIA
+------------------------------------------------------- */
+@@media (max-width: 900px) {
+  .col-6{
+    width: auto;
+  }
+}
